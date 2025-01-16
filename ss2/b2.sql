@@ -5,18 +5,18 @@
 */
 
 create table staff (
-    staff_id int primary key,
-    staff_name varchar(50),
-    birthdate date
+staff_id int primary key,
+staff_name varchar(50),
+birthdate date
 );
 create table customer(
-	cus_id int primary key,
-    cus_name varchar(20) not null,
-    email varchar(20) not null
+cus_id int primary key,
+cus_name varchar(20) not null,
+email varchar(20) not null
 );
 create table orders(
-	order_id int primary key,
-    order_date date,
-    cus_id int,
-    foreign key (cus_id) references customer(cus_id)
+order_id int primary key,
+order_date date,
+cus_id int,
+foreign key (cus_id) references customer(cus_id)
 );
