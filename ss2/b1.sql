@@ -15,8 +15,8 @@
 
 */
 create table student(
-	student_id int,
-	student_name varchar(10),
-    student_birthdate date,
-    average_number float(2, 2)
+student_id int,
+student_name varchar(10),
+student_birthdate date,
+average_number float(2, 2)
 )
