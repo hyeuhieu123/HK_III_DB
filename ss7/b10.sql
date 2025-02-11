@@ -44,7 +44,7 @@ insert into subjects (subject_id, subject_name) values
 insert into marks (mark, subject_id, student_id) values
 (8, 1, 1),
 (4, 2, 1),
-(9, 2, 1),
+(9, 5, 1),
 (7, 1, 3),
 (3, 1, 4),
 (5, 2, 5),
